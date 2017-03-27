@@ -1,0 +1,58 @@
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-family: "Helvitica Neue", Helvitica, Arial, sans-serif;
+}
+
+header {
+  background-color: #06D6A0;
+  text-align:center;
+  padding:20px;
+}
+
+body{
+  margin:0;
+}
+
+img{
+  max-width: 100%;
+}
+
+.logo{
+  color: white;
+  font-size:20px;
+  margin:0;
+  text-align: left;
+}
+
+.navbar{
+  float: right;
+  padding:0;
+}
+
+.navitem{
+  display:inline-block;
+  font-size: 20px;
+  margin-left:40px;
+  margin-bottom:5px;
+  line-height: 60px;
+}
+
+.heroimage{
+  float:left;
+  width:60%;
+}
+
+.hero-content{
+  float:right;
+  width:40%;
+  font-size:20px;
+}
+
+.hero-content >h2{
+  padding:0;
+  
+}
